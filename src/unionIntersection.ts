@@ -39,4 +39,21 @@
     designation1: "Froentend Web Developer",
     designation2: "Backend Web Developer",
   };
+
+  type AustralianAllrounder = {
+    bestPlayer: string[];
+    designation3: "Batting and Bowling";
+  };
+  type BangladeshiAllrounder = {
+    bestPlayer: string[];
+    designation4: "Batting, Bowling and fielding";
+  };
+
+  type IshtiakErChoise = AustralianAllrounder & BangladeshiAllrounder;
+
+  const ishtiakErPosondo: IshtiakErChoise = {
+    bestPlayer: ["Warner", "Sabbir", "Maxwell", "Smith"],
+    designation3: "Batting and Bowling",
+    designation4: "Batting, Bowling and fielding",
+  };
 }

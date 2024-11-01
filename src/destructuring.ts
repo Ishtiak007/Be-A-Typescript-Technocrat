@@ -12,7 +12,7 @@
   };
   const {
     id,
-    name: { firstName },
+    name: { firstName: firstNm },
     contactNo,
   } = user;
 

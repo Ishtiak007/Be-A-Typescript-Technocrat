@@ -1,4 +1,4 @@
-// BASIC DATA TYPE
+// -------------------BASIC DATA TYPE---------------------
 
 // string
 let firstName: string = "Ishtiak";
@@ -20,8 +20,8 @@ let d: number;
 d = 107;
 
 // Array
-let frinds: string[] = ["Ishtiak", "Taranumm", "Monica", "Rechel"];
-frinds.push("Sayma");
+let frinds: string[] = ["Ishtiak", "Imtiaz", "Monica", "Rechel"];
+frinds.push("Ahmed");
 
 let eligibleRollList: number[] = [1, 0, 7];
 

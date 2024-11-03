@@ -68,4 +68,5 @@
     "19000",
     "Amader desher nam holo bangladesh",
   ];
+  console.log(peopleWithId);
 }

@@ -34,7 +34,12 @@
 
   // dynamic generic object
   //   type UserType = { name: string; age: number };
-  const user: GenericArray<{ name: string; age: number }> = [
+
+  interface UserType {
+    name: string;
+    age: number;
+  }
+  const user: GenericArray<UserType> = [
     {
       name: "Ishtiak",
       age: 23,
@@ -44,6 +49,7 @@
       age: 37,
     },
   ];
+  console.log(user);
 
   //   generic tuple
   type GenericTupol<Type1, Type2, Type3, Type4> = [Type1, Type2, Type3, Type4];

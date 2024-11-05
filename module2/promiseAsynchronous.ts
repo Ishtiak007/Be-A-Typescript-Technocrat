@@ -12,12 +12,11 @@
       "https://jsonplaceholder.typicode.com/todos/1"
     );
     const data = await response.json();
-
     return data;
   };
   getTodo();
 
-  //   for string
+  //   for string..........................................................
   const createPromise = (): Promise<string> => {
     return new Promise<string>((resolve, reject) => {
       const data: string = "something is happening";
@@ -36,7 +35,7 @@
   };
   showData();
 
-  //for boolean
+  //for boolean.............................................................
   const createPromise2 = (): Promise<boolean> => {
     return new Promise<boolean>((resolve, reject) => {
       const data: boolean = true;
@@ -55,7 +54,7 @@
   };
   showData2();
 
-  //for object
+  //for object..............................................................
   type SometingType = {
     something: string;
   };

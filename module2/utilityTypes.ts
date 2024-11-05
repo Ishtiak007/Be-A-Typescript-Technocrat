@@ -1,6 +1,4 @@
 {
-  //utility types
-
   //pick
   type Person = {
     name: string;

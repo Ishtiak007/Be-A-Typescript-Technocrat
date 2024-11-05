@@ -48,5 +48,7 @@
   }
 
   const person1 = new Person("Ishtiak", 5.8, "cse 3rd year", "RU");
+  const person2 = new Person("Tara", 5.8, "Health economics 3rd year", "DU");
   person1.personIdentity();
+  person2.personIdentity();
 }

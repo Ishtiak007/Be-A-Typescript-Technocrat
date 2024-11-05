@@ -27,4 +27,26 @@
 
   cat.makeSound();
   dog.makeSound();
+
+  //   new practices
+  class Person {
+    constructor(
+      public name: string,
+      public height: number,
+      public academicPosition: string,
+      public campusName: string
+    ) {
+      this.height = height;
+      this.academicPosition = academicPosition;
+      this.campusName = campusName;
+    }
+    personIdentity() {
+      console.log(
+        `This is ${this.name} , height is ${this.height} , academic Position ${this.academicPosition} and campus name is ${this.campusName}`
+      );
+    }
+  }
+
+  const person1 = new Person("Ishtiak", 5.8, "cse 3rd year", "RU");
+  person1.personIdentity();
 }

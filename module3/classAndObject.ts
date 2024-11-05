@@ -1,14 +1,19 @@
 {
   //opp- class
   class Animal {
-    name: string;
-    species: string;
-    sound: string;
+    // public name: string;
+    // public species: string;
+    // public sound: string;
 
-    constructor(name: string, satisfies: string, sound: string) {
-      this.name = name;
-      this.species = satisfies;
-      this.sound = sound;
+    // parameter properties
+    constructor(
+      public name: string,
+      public species: string,
+      public sound: string
+    ) {
+      //   this.name = name;
+      //   this.species = satisfies;
+      //   this.sound = sound;
     }
 
     makeSound() {
